@@ -1,0 +1,33 @@
+{
+	"name":"Sketchic",
+	"short_name":"Sketchic",
+	"start_url":"index.html",
+	"display":"standalone",
+	"background_color":"#5900b3",
+	"theme_color":"black",
+	"scope": ".",
+	"description":"Aplicativo para desenho com reconhecimento do desenho por IA",
+	"icons":[
+        {
+            "src":"resources/img/icon.png",
+            "sizes":"160x160",
+            "type":"image/png"
+        }
+    ],
+    "screenshots":[
+		{
+			"src": "resources/img/screenshot1.jpg",
+			"sizes": "1280x720",
+			"type": "image/jpg",
+			"platform": "wide",
+			"label": "Sketch board"
+		},
+		{
+			"src": "resources/img/screenshot2.png",
+			"sizes": "1280x720",
+			"type": "image/png",
+			"platform": "wide",
+			"label": "Desenho com predição"
+		}
+	]
+}

@@ -65,7 +65,7 @@ async function predict() {
  **/
 async function loadModel() {
 	const URL = 
-		'https://raw.githubusercontent.com/Jp9910/Projeto-AM/main/models/tensorflowjs/';
+		'https://raw.githubusercontent.com/Jp9910/CV_Project/main/models/tensorflowjs/';
 
 	//https://js.tensorflow.org/api/latest/#loadGraphModel
 	modelo = await tf.loadGraphModel(URL, {fromTFHub: true});
@@ -107,7 +107,7 @@ function setupCanvas() {
 		// Current mouse position
 		let currentX = e.clientX
 		let currentY = e.clientY
-		console.log(currentX,currentY)
+		// console.log(currentX,currentY)
 
 		// Drawing a line from the previous mouse position to the current mouse position
 		ctx.beginPath()
